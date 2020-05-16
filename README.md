@@ -1,4 +1,4 @@
-# docker-interactive_slam
+# docker-hdl_slam
 For details, see https://github.com/koide3/hdl_graph_slam
 
 # Support
