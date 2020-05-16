@@ -1,5 +1,6 @@
 FROM tiger0421/ros-gpu-gazebo:1.0-glvnd-runtime-ubuntu16.04
 
+ARG ROS_DISTRO
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && \
     apt install -y \
