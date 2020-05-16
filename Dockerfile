@@ -6,10 +6,10 @@ RUN apt update && \
     apt install -y \
         libglm-dev \
         libglfw3-dev \
-        ros-$(ROS_DISTRO)-geodesy \
-        ros-$(ROS_DISTRO)-pcl-ros \
-        ros-$(ROS_DISTRO)-nmea-msgs \
-        ros-$(ROS_DISTRO)-libg2o \
+        ros-$ROS_DISTRO-geodesy \
+        ros-$ROS_DISTRO-pcl-ros \
+        ros-$ROS_DISTRO-nmea-msgs \
+        ros-$ROS_DISTRO-libg2o \
         vim \
         tmux \
     && \
