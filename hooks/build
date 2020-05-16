@@ -12,4 +12,4 @@ else
     ROS_DISTRO="kinetic";
 fi
 
-docker build --build-arg BASE_TAG=$DOCKER_TAG $DOCKERFILE_PATH_ARG -t $IMAGE_NAME .
+docker build --build-arg BASE_TAG=$DOCKER_TAG --build-arg ROS_DISTRO=$ROS_DISTRO $DOCKERFILE_PATH_ARG -t $IMAGE_NAME .
