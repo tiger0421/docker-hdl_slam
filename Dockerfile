@@ -1,4 +1,4 @@
-FROM tiger0421/ros-gpu-gazebo:1.0-glvnd-runtime-ubuntu16.04
+FROM tiger0421/ros-gpu-gazebo:
 
 ARG ROS_DISTRO
 ENV DEBIAN_FRONTEND=noninteractive
