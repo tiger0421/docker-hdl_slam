@@ -1,4 +1,5 @@
-FROM tiger0421/ros-gpu-gazebo:
+ARG BASE_TAG
+FROM tiger0421/ros-gpu-gazebo:$BASE_TAG
 
 ARG ROS_DISTRO
 ENV DEBIAN_FRONTEND=noninteractive
