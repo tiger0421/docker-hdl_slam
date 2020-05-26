@@ -9,6 +9,10 @@ catkin_init_workspace
 cd ~/catkin_ws
 catkin build
 
+# clone ndt_omp
+cd ~/catkin_ws/src
+git clone https://github.com/koide3/ndt_omp.git
+
 # clone hdl_slam
 cd ~/catkin_ws/src
 git clone https://github.com/koide3/hdl_graph_slam
