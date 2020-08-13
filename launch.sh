@@ -7,7 +7,7 @@ docker run -it --name hdl_slam \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
     --gpus all \
-    tiger0421/ros-hdlslam:1.0-glvnd-runtime-ubuntu16.04 \
+    tiger0421/docker-hdl_slam:1.0-glvnd-runtime-ubuntu16.04 \
     /bin/bash
 
 xhost -local:root
